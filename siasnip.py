@@ -2,6 +2,7 @@ import sys
 import pyperclip
 import configparser
 import ctypes
+from time import sleep
 from siaskynet import Skynet
 from playsound import playsound
 from PyQt5 import QtWidgets, QtCore, QtGui
@@ -26,6 +27,8 @@ def upload(file):
     print('upload finished')
     # beep
     playsound(beepname, False)
+    # wait for sound to play then close
+    sleep(3)
 
 class SnipWindow(QtWidgets.QWidget):
     def __init__(self):
