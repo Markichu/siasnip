@@ -1,5 +1,6 @@
 # siasnip
 A snipping tool that uploads directly to Sia Skynet.
+
 ### Dependecies
 - pyperclip
 - configparser
@@ -18,7 +19,6 @@ Running siasnip.py will start the snipping tool, dragging a rectangle will then 
 If desired, siasnip.py can be renamed to siasnip.pyw (to run without a terminal) and can be opened however the user desires (e.g Autohotkey/batch script).
 
 ### Demo Video
-
 https://siasky.net/AACFzFXVy9_AwtH-bqBB4g6sBHuMbh8TK42VBdYSxLvT5g
 
 ### Config
